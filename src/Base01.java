@@ -74,12 +74,12 @@ public class Base01 {
 }
 
 
-    public double toDouble(String str) {
-        return Double.parseDouble(str);
-    }
-    public int maxInt() {
-        return Integer.MAX_VALUE;
-    }
-    public int toInt(String str) {
-        return Integer.parseInt(str);
-    }
+//    public double toDouble(String str) {
+//        return Double.parseDouble(str);
+//    }
+//    public int maxInt() {
+//        return Integer.MAX_VALUE;
+//    }
+//    public int toInt(String str) {
+//        return Integer.parseInt(str);
+//    }
