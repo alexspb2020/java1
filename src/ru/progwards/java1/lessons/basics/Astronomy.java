@@ -29,7 +29,7 @@ public class Astronomy {
         return sphereSquare(EARTH) / sphereSquare(MERCURY);
     }
     public static Double earthVsJupiter() {
-        return (EARTH / JUPITER);
+        return sphereSquare(EARTH) / sphereSquare(JUPITER);
     }
     public static void main(String[] args) {
         System.out.println("earthSquare()= " + earthSquare());
