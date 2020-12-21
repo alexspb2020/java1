@@ -1,7 +1,9 @@
-package ru.progwards.java1.lessons;
+package ru.progwards.java1.lessons.basics;
 
 public class Astronomy {
     static final Double PI = 3.14;
+//    static final Double EARTH = 6371.2;
+//    static final Double MERCURY = 2439.7;
     static final Double EARTH = 6371.2;
     static final Double MERCURY = 2439.7;
     static final Double JUPITER = 71492.0;
@@ -24,13 +26,11 @@ public class Astronomy {
     }
 
     public static Double earthVsMercury() {
-        return sphereSquare(EARTH / MERCURY);
+        return sphereSquare(EARTH) / sphereSquare(MERCURY);
     }
-
     public static Double earthVsJupiter() {
-        return sphereSquare(EARTH / JUPITER);
+        return (EARTH / JUPITER);
     }
-
     public static void main(String[] args) {
         System.out.println("earthSquare()= " + earthSquare());
         System.out.println("mercurySquare()= " + mercurySquare());
